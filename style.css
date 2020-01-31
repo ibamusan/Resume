@@ -1,0 +1,144 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #E4EA8C;
+}
+
+/* ==============================
+  Home page
+*/
+.container-fluid{
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  height: 100%;
+  grid-gap: 20px;
+}
+
+.custom-navbar{
+  text-align: center;
+}
+
+.img-wrap{
+  background-color: #ffffff;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 20px 50px;
+}
+
+.nav-image{
+  height: 120px;
+  width: 120px;
+  margin-top: 45px;
+
+}
+
+.page-content img{
+  height: 100vh;
+  width: 100%;
+}
+
+ul{
+  margin-right: 40px ;
+  text-align: center;
+}
+
+.navitem li a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #CB0000;
+}
+
+.navitem li a:hover{
+  background-color: #3F6C45;
+  padding: 5px;
+  color: white;
+}
+
+.navitem li{
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  padding: 20px;
+}
+
+.page-content-text{
+  position: absolute;
+  top: 200px;
+  left: 600px;
+}
+
+.page-content-text h1{
+  font-size: 70px;
+  font-weight: bold;
+  color: #ffffff;
+  font-style: italic;
+}
+
+.page-content-text p{
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  font-style: italic;
+}
+
+/* ============================
+  About Page
+*/
+
+#about-page .container-fluid{
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  height: 100%;
+  grid-gap: 20px;
+}
+
+.about-image{
+  height: 150px;
+  width: 150px;
+}
+
+.about-image-detail{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.about-detail{
+  margin-right: 150px;
+}
+
+.about-detail p{
+  font-size: 14px;
+}
+
+.progress{
+  margin: 10px 0px;
+}
+
+
+.skill h1{
+  margin: 20px 0px;
+  color: #CB0000;
+  font-weight: bold;
+}
+
+.about-me{
+  margin-top: 80px;
+}
+
+.about-me h1{
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #CB0000;
+}
+
+.about-me p{
+  font-size: 14px;
+}
+
