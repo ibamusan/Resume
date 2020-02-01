@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap');
+
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
 body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #E4EA8C;
+  background-color: #E4EA8E;
 }
 
 /* ==============================
@@ -13,7 +18,7 @@ body{
   display: grid;
   grid-template-columns: 1fr 4fr;
   height: 100%;
-  grid-gap: 20px;
+  grid-gap: 0px;
 }
 
 .custom-navbar{
@@ -21,7 +26,7 @@ body{
 }
 
 .img-wrap{
-  background-color: #ffffff;
+  background-color: #F1F3CE;
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -142,3 +147,37 @@ ul{
   font-size: 14px;
 }
 
+/* ==============================
+  Services Page
+*/
+
+.card{
+  background-color: #F1F3CE;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 2px 2px;
+}
+
+.fas{
+  padding: 30px;
+  font-size: 30px;
+  border: 8px solid #CB0000;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.card-title{
+  font-size: 20px;
+}
+
+.card-text{
+  font-size: 14px;
+  padding: 10px;
+}
+
+#services .container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 20px;
+  margin-top: 50px;
+}
