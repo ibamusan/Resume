@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
 
 /* font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif; */
@@ -7,7 +8,8 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Raleway', sans-serif; 
+  font-family: 'EB Garamond', serif;
+  /* font-family: 'Raleway', sans-serif;  */
   background-color: #ffffff;
 }
 
@@ -73,10 +75,10 @@ ul{
 }
 
 .page-content-text h1{
-  font-size: 70px;
+  font-size: 60px;
+  font-family: 'Raleway', sans-serif; 
   font-weight: bold;
   color: #ffffff;
-  font-style: italic;
 }
 
 .page-content-text p{
@@ -264,6 +266,7 @@ ul{
  }
 
  .get-in-touch p{
+   font-size: 15px;
    margin-top: 35px;
    margin-bottom: 20px;
  }
@@ -368,6 +371,44 @@ Mobile Design
 
 .about-me{
   margin: 30px 0px;
+}
+
+/* =======================================
+Service page  */
+
+#services .container{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+/* =======================================
+Contact page  */
+
+#contact .container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #F1F3CE;
+}
+
+.social-handles{
+  margin-bottom: 50px;
+}
+
+.skill{
+  margin: 0px 50px;
+}
+
+.about-image-detail{
+  margin: 0px 50px;
+}
+
+.container .about-me{
+  margin: 0px 50px;
+}
 }
 
 
