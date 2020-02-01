@@ -7,6 +7,7 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif; 
   background-color: #ffffff;
 }
 
@@ -25,17 +26,13 @@ body{
   text-align: center;
 }
 
-.img-wrap{
-  background-color: #F1F3CE;
+.nav-image{
   height: 200px;
   width: 200px;
+  border: 1px solid #F1F3CE;
   border-radius: 50%;
-  margin: 20px 50px;
-}
-
-.nav-image{
-  height: 120px;
-  width: 120px;
+  padding: 10px;
+  background-color: #F1F3CE;
   margin-top: 45px;
 
 }
@@ -281,3 +278,97 @@ ul{
   width: 100px;
 }
 
+
+/* ================================
+Mobile Design
+*/
+@media screen and (max-width: 500px){
+  .container-fluid{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+    grid-gap: 0px;
+  }
+  
+  .nav-image{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #F1F3CE;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #F1F3CE;
+    margin-top: 5px;
+  }
+
+  .custom-navbar{
+    display: flex;
+    text-align: center;
+  }
+
+  ul{
+    display: flex;
+    text-align: center;
+  }
+  
+  .navitem li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #CB0000;
+  }
+  
+  .navitem li{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .page-content-text{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+  }
+  
+  .page-content-text h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    font-style: italic;
+  }
+  
+  .page-content-text p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    font-style: italic;
+  }
+
+  /* ============================
+  About Page
+*/
+
+#about-page .container-fluid{
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100%;
+}
+
+.about-image-detail{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.about-detail {
+  margin-top: 20px;
+}
+
+.about-me{
+  margin: 30px 0px;
+}
+
+
+}
